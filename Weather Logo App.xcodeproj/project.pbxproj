@@ -12,6 +12,7 @@
 		FC6213731E0707AC00665216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6213711E0707AC00665216 /* Main.storyboard */; };
 		FC6213751E0707AC00665216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6213741E0707AC00665216 /* Assets.xcassets */; };
 		FC6213781E0707AC00665216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6213761E0707AC00665216 /* LaunchScreen.storyboard */; };
+		FC6213801E0707E600665216 /* 180*180.png in Resources */ = {isa = PBXBuildFile; fileRef = FC62137F1E0707E600665216 /* 180*180.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC6213741E0707AC00665216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC6213771E0707AC00665216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC6213791E0707AC00665216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC62137F1E0707E600665216 /* 180*180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "180*180.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FC62136C1E0707AB00665216 /* Weather Logo App */ = {
 			isa = PBXGroup;
 			children = (
+				FC62137F1E0707E600665216 /* 180*180.png */,
 				FC62136D1E0707AB00665216 /* AppDelegate.swift */,
 				FC62136F1E0707AC00665216 /* ViewController.swift */,
 				FC6213711E0707AC00665216 /* Main.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					FC6213691E0707AB00665216 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 7CZ8CAJJXF;
+						DevelopmentTeam = 7SH627DBA4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +129,7 @@
 			files = (
 				FC6213781E0707AC00665216 /* LaunchScreen.storyboard in Resources */,
 				FC6213751E0707AC00665216 /* Assets.xcassets in Resources */,
+				FC6213801E0707E600665216 /* 180*180.png in Resources */,
 				FC6213731E0707AC00665216 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +265,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7CZ8CAJJXF;
+				DEVELOPMENT_TEAM = 7SH627DBA4;
 				INFOPLIST_FILE = "Weather Logo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.Weather-Logo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.Weather-Logo-App-New";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,10 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7CZ8CAJJXF;
+				DEVELOPMENT_TEAM = 7SH627DBA4;
 				INFOPLIST_FILE = "Weather Logo App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.Weather-Logo-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atilsamancioglu.Weather-Logo-App-New";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +306,7 @@
 				FC62137E1E0707AC00665216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
